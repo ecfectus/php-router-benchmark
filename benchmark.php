@@ -125,6 +125,7 @@ foreach ($modes as $title => $isolated) {
                 gc_collect_cycles();
             }
             echo $benchmark->chart();
+            echo $benchmark->table();
         }
     }
 }
